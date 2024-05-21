@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <!-- Navbar -->
+   <header>
+    <nav
+      id="navbarco"
+      class="bg-[#13151a] sticky top-0 z-50 transition-colors duration-500"
+    >
+      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+        <div class="relative flex items-center justify-between h-16">
+          <div
+            class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
+          >
+            <div class="flex-shrink-0 flex items-center">
+              <img
+                class="block lg:hidden h-8 w-auto"
+                src="favicon.svg"
+                alt="Workflow"
+              />
+              <img
+                class="hidden lg:block h-8 w-auto"
+                src="favicon.svg"
+                alt="Workflow"
+              />
+              <span class="ml-3 text-2xl font-bold text-white">Flexia</span>
+            </div>
+            <div class="hidden sm:block sm:ml-6">
+              <div class="flex space-x-4">
+                <a
+                  href=""
+                  class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >Inicio</a
+                >
+                <a
+                  href="/about"
+                  class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >Nosotros</a
+                >
+                <a
+                  href="/contact"
+                  class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >link</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="hidden sm:block sm:ml-6">
+            <div class="flex space-x-4">
+              <a
+                href="register.html"
+                class="text-blue-300 hover:bg-[#054047] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >Registro</a
+              >
+            </div>
+          </div>
+          <div class="hidden sm:block sm:ml-6">
+            <div class="flex space-x-4">
+              <a
+                href="./openpose/index.php"
+                class="text-blue-300 hover:bg-[#27cfe6] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >Ingresa a la plataforma</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- banner -->
+  <section class="banner">
+    <div class="content-banner">
+      <p>¡Cuida tu cuerpo, cuida tu salud!</p>
+      <h2>Rutinas <br>Innovadoras</h2>
+      <a href="#">Probar ahora</a>
+    </div>
+  </section>
+  <!-- main content -->
+  <main class="main-content">
+    <section class="container container-features">
+      <div class="card-feature">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+        </svg>
+        <div class="feature-content">
+          <span>Rutinas </span>
+          <p>personalizadas</p>
+        </div>
+      </div>
+      <div class="card-feature">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+          <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2"/>
+          <path fill-rule="evenodd" d="M12 3v10h-1V3z"/>
+          <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1z"/>
+          <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5m0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5m0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5"/>
+        </svg>
+        <div class="feature-content">
+          <span>Música</span>
+          <p>personalizada</p>
+        </div>
+      </div>
+      <div class="card-feature">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar2-check-fill" viewBox="0 0 16 16">
+          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5m9.954 3H2.545c-.3 0-.545.224-.545.5v1c0 .276.244.5.545.5h10.91c.3 0 .545-.224.545-.5v-1c0-.276-.244-.5-.546-.5m-2.6 5.854a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z"/>
+        </svg>
+        <div class="feature-content">
+          <span>Notificaciones</span>
+          <p>de tu proceso</p>
+        </div>
+      </div>
+      <div class="card-feature">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-badge-fill" viewBox="0 0 16 16">
+          <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm4.5 0a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zM8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6m5 2.755C12.146 12.825 10.623 12 8 12s-4.146.826-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1z"/>
+        </svg>
+        <div class="feature-content">
+          <span>I.A </span>
+          <p>en tus rutinas</p>
+        </div>
+      </div>
+  </main>
+  <div class="containerc">
+    <div class="card">
+      <img src="img/imagen1.avif" alt="">
+      <h4>Educación y conciencia</h4>
+      <p>Creemos que el primer paso para mejorar la movilidad es la educación. proporcionamos información integral sobre la importancia de la salud en la tercera edad, incluyendo los factores de riesgo, signos de alerta y las estrategias de prevención.</p>
+    </div>
+    <div class="card">
+      <img src="img/imagen2.avif" alt="">
+      <h4>Programas personalizados</h4>
+      <p>Sabemos que cada persona es única, por lo que ofrecemos programas personalizados diseñados especificamente para fortalecer los músculos, mejorar la flexibilidad y aumentar la resistencia en los adultos mayores.</p>
+    </div>
+    <div class="card">
+      <img src="img/imagen3.jpg" alt="">
+      <h4>Notificaciones</h4>
+      <p>Reconocemos que el apoyo es clave para mantener la motivación y el compromiso con un estilo de vida saludable. Por eso fomentamos una serie de notificaciones para compartir consejos y mensajes para motivarse en su viaje hacia una vida activa y saludable.</p>
+    </div>
+    
+  </div>
+  <!-- footer-->
+  <footer>
+    <div class="footercontainer">
+      <div class="socialIcons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-google-plus"></i></a>
+      </div>
+      <div class="footernav">
+        <ul>
+          <li><a href="">inicio</a></li>
+          <li><a href="">Nosotros</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">Registro</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerbottom">
+      <p>Copyright &copy;2024; Designed by <span class="designer">Flexia</span></p>
+    </div>
+  </footer>
+</body>
+</html>
+<style is:global>
+  html {
+    font-family: system-ui, sans-serif;
+    background: #13151a;
+    background-size: 224px;
+    color-scheme: dark light;
+  }
+</style>
