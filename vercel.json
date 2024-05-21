@@ -1,0 +1,11 @@
+{
+    "functions":{
+        "./openpose/api/*.php":{
+            "runtime": "vercel-php@0.7.1"
+        },
+        "./api/*.php":{
+            "runtime": "vercel-php@0.7.1"
+        }
+    }
+}
+

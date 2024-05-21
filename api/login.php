@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['username'] = $_POST['username'];
             $_SESSION['id'] = $row['id'];  // Almacena el ID del usuario en la sesión
             // Redirige a la página protegida:
-            header("Location: pagina_protegida.php"); // Reemplaza con tu página real
+            header("Location: ./openpose/api/index.php"); // Reemplaza con tu página real
             exit();
         } else {
             $error = "Nombre de usuario o contraseña incorrectos.";

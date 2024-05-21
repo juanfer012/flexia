@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['id'] = $conn->insert_id; // Obtén el ID del usuario recién insertado
 
             // Redirige a la página protegida:
-            header("Location: ./openpose/index.php"); // Reemplaza con tu página real
+            header("Location: ./openpose/api/index.php"); // Reemplaza con tu página real
             exit();
         }
     }
